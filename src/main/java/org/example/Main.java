@@ -21,6 +21,7 @@ public class Main {
             System.out.println("Bu matn palindrome!");
         } else {
             System.out.println("Bu matn palindrome emas.");
+
         }
 
         scanner.close();
