@@ -17,7 +17,12 @@ public class Main {
         System.out.println("Palindrome tekshiruvchi dastur");
         System.out.print("So'z yoki jumlani kiriting: ");
         String input = scanner.nextLine();
-        //Pass uchun
-        //o'sha metodi o'ziz yozin
+        if (isPalindrome(input)) {
+            System.out.println("Bu matn palindrome!");
+        } else {
+            System.out.println("Bu matn palindrome emas.");
+        }
+
+        scanner.close();
     }
 }
